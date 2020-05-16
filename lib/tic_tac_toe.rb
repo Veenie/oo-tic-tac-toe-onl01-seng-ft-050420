@@ -48,6 +48,10 @@ class TicTacToe
   end
  end
  
+ 
+ 
+ 
+ 
  def turn
    puts "Enter 1-9"
    user_input = gets.strip
@@ -65,9 +69,7 @@ class TicTacToe
    @board.count{|token| token == "X" || token == "O"}
  end
  
-  def current_player
-    turn_count % 2 == 0 ? "X" : "O"
-  end
+
   
   def won?
     if @board = WIN_COMBINATIONS
