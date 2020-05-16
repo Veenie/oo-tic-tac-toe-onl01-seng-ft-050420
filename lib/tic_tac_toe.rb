@@ -50,6 +50,7 @@ class TicTacToe
  end
  
  def turn
+   puts "Enter 1-9"
    
  
  def turn_count
