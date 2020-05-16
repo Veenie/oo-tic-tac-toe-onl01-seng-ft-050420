@@ -115,5 +115,6 @@ class TicTacToe
      return current_player
    else
      nil
-  
+   end
+ end  
 end
