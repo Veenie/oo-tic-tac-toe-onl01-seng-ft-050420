@@ -57,6 +57,9 @@ class TicTacToe
      puts "Enter 1-9"
    else
      move
+     display_board
+   end   
+ end
  
  def turn_count
    @board.count{|token| token == "X" || token == "O"}
