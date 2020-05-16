@@ -53,7 +53,7 @@ class TicTacToe
    puts "Enter 1-9"
    user_input = gets.strip
    @board[index] = input_to_index(user_input)
-   if valid_move? = false
+   if valid_move?
      puts "Enter 1-9"
    else
      move
