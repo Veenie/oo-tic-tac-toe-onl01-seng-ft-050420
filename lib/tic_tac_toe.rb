@@ -116,7 +116,7 @@ class TicTacToe
    if index == false
      nil
    else
-     if @board[index[0]] = "X"
+     if @board[index[0]] == "X"
        return "X"
      else
      return "O"
