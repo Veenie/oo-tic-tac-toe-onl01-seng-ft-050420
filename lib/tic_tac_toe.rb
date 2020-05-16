@@ -26,7 +26,7 @@ class TicTacToe
     input.to_i - 1
   end
 
- def move (=X, O)
+ def move (move=X)
    
 
 
