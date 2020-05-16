@@ -56,6 +56,14 @@ class TicTacToe
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
+  
+  def won?
+    if @board = WIN_COMBINATIONS
+      true
+    else
+      false
+    end
+  end  
 
 
 end
