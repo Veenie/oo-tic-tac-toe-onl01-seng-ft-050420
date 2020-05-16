@@ -76,7 +76,7 @@ class TicTacToe
  end
   
   def won?
-    if @board = WIN_COMBINATIONS && !draw?
+    if @board = WIN_COMBINATIONS && !full?
       true
     else
       false
