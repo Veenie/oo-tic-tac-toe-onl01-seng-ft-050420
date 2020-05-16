@@ -115,11 +115,12 @@ class TicTacToe
    index = won?
    if index == false
      nil
-   elsif
-     @board[index] = "X"
-     return "X"
    else
+     if @board[index] = "X"
+       return "X"
+     else
      return "O"
-   end
- end  
+     end
+   end  
+ end
 end
