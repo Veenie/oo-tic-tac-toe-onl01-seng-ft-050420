@@ -27,7 +27,9 @@ class TicTacToe
   end
 
  def move (move=X)
+   @board[move]
    
+ end 
 
 
 end
