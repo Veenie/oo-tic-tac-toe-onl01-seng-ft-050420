@@ -56,9 +56,8 @@ class TicTacToe
    if valid_move?
      move
      display_board
-     puts "Enter 1-9"
    else
-
+     turn
    end   
  end
  
