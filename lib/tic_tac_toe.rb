@@ -111,6 +111,7 @@ class TicTacToe
  end  
  
  def winner
+   index = []
    if !won?
      nil
    elsif
