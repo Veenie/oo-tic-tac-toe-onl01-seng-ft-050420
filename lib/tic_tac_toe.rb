@@ -54,6 +54,9 @@ class TicTacToe
    user_input = gets.strip
    @board[index] = input_to_index(user_input)
    if valid_move? = false
+     puts "Enter 1-9"
+   else
+     move
  
  def turn_count
    @board.count{|token| token == "X" || token == "O"}
