@@ -75,13 +75,7 @@ class TicTacToe
   @board.all? {|index| index == "X" || index == "O"}
  end
   
-  def won?
-    if @board = WIN_COMBINATIONS && !full?
-      true
-    else
-      false
-    end
-  end
+
   
 
   
