@@ -38,7 +38,9 @@ class TicTacToe
      false
   end
  end
-
+ 
+ def vaild_move?
+   
 
 
 end
