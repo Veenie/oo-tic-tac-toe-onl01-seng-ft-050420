@@ -27,7 +27,7 @@ class TicTacToe
   end
 
  def move (board, number, token="X")
-   board(number) = token
+   board[number] = token
    
  end 
 
