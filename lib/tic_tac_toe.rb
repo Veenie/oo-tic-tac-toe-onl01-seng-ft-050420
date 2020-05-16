@@ -51,6 +51,7 @@ class TicTacToe
  
  def turn
    puts "Enter 1-9"
+   
    input_to_index
    move
    if valid_move?
