@@ -31,7 +31,9 @@ class TicTacToe
    
  end
  
- 
+ def position_taken(index)
+   if index == ""
+   
 
 
 end
