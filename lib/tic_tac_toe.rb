@@ -71,7 +71,11 @@ class TicTacToe
    @board.count{|token| token == "X" || token == "O"}
  end
  
-
+ def full?
+  @board.all? {|index| index == "X" || index == "O"}
+ end
+ 
+ 
   
   def won?
     if @board = WIN_COMBINATIONS
