@@ -27,7 +27,7 @@ class TicTacToe
   end
 
  def move (board, #, letter="X")
-   @board[#](move)
+   @board
    
  end 
 
