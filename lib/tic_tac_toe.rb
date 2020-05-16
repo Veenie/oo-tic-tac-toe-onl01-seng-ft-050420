@@ -115,9 +115,9 @@ class TicTacToe
      nil
    elsif
      @board[index] = "X"
-     return 
+     return "X"
    else
-     nil
+     return "O"
    end
  end  
 end
