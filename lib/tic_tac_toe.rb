@@ -52,7 +52,7 @@ class TicTacToe
  def turn
    puts "Enter 1-9"
    user_input = gets.strip
-   index = input_to_index(user_input)
+   @board[index] = input_to_index(user_input)
    
  
  def turn_count
