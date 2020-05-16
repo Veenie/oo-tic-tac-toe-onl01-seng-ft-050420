@@ -26,7 +26,7 @@ class TicTacToe
     input.to_i - 1
   end
 
- def move (#, token="X")
+ def move (board, #, token="X")
    board'#' = letter
    
  end 
