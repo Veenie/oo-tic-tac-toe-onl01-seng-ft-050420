@@ -40,7 +40,7 @@ class TicTacToe
   end
  end
  
- def vaild_move?
+ def vaild_move?(index)
     
    if @board[index] == "X" || @board[index] == "O"
      true
