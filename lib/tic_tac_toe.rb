@@ -51,7 +51,7 @@ class TicTacToe
  def turn
    puts "Enter 1-9"
    input = gets.strip
-   index = input_to_index(user_input)
+   index = input_to_index
    if valid_move?(index)
      move
      display_board
