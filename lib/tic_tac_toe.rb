@@ -44,8 +44,6 @@ class TicTacToe
     
    if @board[index] == "X" || @board[index] == "O"
      false
-   elsif index == 1..9 
-     true
    else
      true
   end
