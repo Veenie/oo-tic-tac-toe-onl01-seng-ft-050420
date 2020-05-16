@@ -131,8 +131,7 @@ class TicTacToe
   end
   
   if won?
-    "The winner is..."
-    puts winner
+    
   elsif draw?
    "It was a draw"
     
